@@ -1,0 +1,44 @@
+q{ background-color: rgba(111, 155, 111, 0.16);}
+
+li{
+background-color: white ;
+    list-style: none;
+    border:  solid 1px black;
+    padding: 5px ;
+  ;
+    margin: 2%;
+    width: 500px ;
+border-radius: 2px ;
+    align-items: center;
+}
+.status{
+    position: relative;
+    left: 89%;
+    top: -10px ;
+}
+button{
+
+    padding: 2px ;
+    color: white;
+    background-color: #1e6e8a;
+
+    border: solid 1px  #6f9b6f;
+
+    border-radius: 3px ;
+    position: relative;
+    left: 3%;
+    top: -6px ;
+
+}
+
+.contener{
+    border: solid 1px #333;
+    width: 50%;
+}
+input{   width: 490px ; }
+
+.bouton{
+    display: flex;
+    gap: 2%;
+}
+

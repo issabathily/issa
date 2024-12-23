@@ -1,0 +1,18 @@
+
+
+<div class="contener" [ngStyle]="{background: couleur()}">
+
+
+
+  <div class="elements" >
+
+    <li [ngStyle]="{color: couleurs()}"> Appareil : --  {{issa.Appareil}}  <div class="status"> {{statu}}</div> <input [(ngModel)]="issa.Appareil"></li>
+
+  <div class="bouton"> <button (click)="vrai()"> Allumer </button> <button (click)="faux()" style="background: #d56262"> etiender</button></div>
+  </div>
+
+
+
+  <div class="bouton">
+  </div>
+</div>
